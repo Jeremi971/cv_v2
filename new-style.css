@@ -1,154 +1,193 @@
-/* style.css */
-
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Merriweather', serif;
-    color: rgb(48, 47, 47);
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    color: rgb(215, 177, 27);
-    font-weight: bold;
-    font-size: 15px;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100%;
-    min-height: 100vh;
-    border: solid 1px #094d64;
-}
-
-#section1 {
-    flex: 1;
-    border-right: solid 1px rgb(212, 210, 210);
-    padding-right: 10px;
-    background-color: #094d64;
-    padding: 10px;
-    color: whitesmoke;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-#section2 {
-    background-color: whitesmoke;
-    color: #094d64;
-    flex: 2;
-    padding: 15px;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    margin: 10px 0 10px 0;
-}
-
-h1 {
-    font-size: 30px;
-    margin: 0;
-}
-
-.np {
-    width: 100%;
-    margin: 0;
-}
-
-h2 {
-    font-size: 16px;
-}
-
-h4 {
-    font-size: 10px;
-}
-
-a,
-p {
-    font-size: 10px;
-}
-
-h3 {
-    font-size: 12px;
-}
-
-ul li {
-    font-size: 10px;
-}
-
-img {
-    border-radius: 50%;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    height: 100px;
-    width: 100px;
-    display: block;
-    border: solid white 3px;
-}
-
-span {
-    color: rgb(133, 132, 132);
-    font-weight: normal;
-    font-size: 10px;
-}
-
-#section1 hr {
-    border-color: white;
-    border-style: double;
-    border-width: 3px;
-    margin: 0;
-}
-
-#section2 hr {
-    border-color: #094d64;
-    border-style: double;
-    border-width: 3px;
-}
-
-#section1 h2 {
-    font-size: 20px;
-}
-
-.linkedin,
-.git {
-    width: 30px;
-    height: 30px;
-    display: inline;
-    margin: 0;
-}
-
-.link {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-@media screen and (min-width: 1024px) {
-    body {
-        width: 100%;
-        height: 100%;
-    }
-    main {
-        width: 21cm;
-        height: 29.7cm;
-        margin: 0 auto;
-    }
-    #section1 {
-        page-break-before: always;
-    }
-}
+                    /* style.css */
+                    
+                    @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+                    /* style.css */
+                    /* Styles généraux de la page */
+                    
+                    body {
+                        font-family: 'Merriweather', serif;
+                        color: rgb(48, 47, 47);
+                    }
+                    /* Styles de la section 1 */
+                    
+                    #section1 {
+                        background-color: #094d64;
+                        padding: 10px;
+                        color: whitesmoke;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                    /* Styles des liens */
+                    
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                    /* Styles des liens au survol */
+                    
+                    a:hover {
+                        color: rgb(215, 177, 27);
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+                    
+                    main {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        width: 100%;
+                        min-height: 100vh;
+                    }
+                    
+                    #section1 {
+                        flex: 1;
+                        border-right: solid 1px rgb(212, 210, 210);
+                        padding-right: 10px;
+                        background-color: #094d64;
+                        padding: 10px;
+                        color: whitesmoke;
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                    
+                    #section2 {
+                        background-color: whitesmoke;
+                        color: #094d64;
+                        flex: 2;
+                        padding: 15px;
+                    }
+                    
+                    h1,
+                    h2,
+                    h3 {
+                        font-family: 'Alegreya Sans SC', sans-serif;
+                        margin: 10px 0 10px 0;
+                    }
+                    
+                    h1 {
+                        font-size: 30px;
+                        margin: 0;
+                    }
+                    
+                    .np {
+                        width: 100%;
+                        margin: 0;
+                    }
+                    
+                    h2 {
+                        font-size: 16px;
+                    }
+                    
+                    h4 {
+                        font-size: 10px;
+                    }
+                    
+                    a,
+                    p {
+                        font-size: 10px;
+                    }
+                    
+                    h3 {
+                        font-size: 12px;
+                    }
+                    
+                    ul li {
+                        font-size: 10px;
+                    }
+                    
+                    img {
+                        border-radius: 50%;
+                        margin: auto;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        height: 100px;
+                        width: 100px;
+                        display: block;
+                        border: solid white 3px;
+                    }
+                    
+                    span {
+                        color: rgb(133, 132, 132);
+                        font-weight: normal;
+                        font-size: 10px;
+                    }
+                    
+                    #section1 hr {
+                        border-color: white;
+                        border-style: double;
+                        border-width: 3px;
+                        margin: 0;
+                    }
+                    
+                    #section2 hr {
+                        border-color: #094d64;
+                        border-style: double;
+                        border-width: 3px;
+                    }
+                    
+                    #section1 h2 {
+                        font-size: 20px;
+                    }
+                    
+                    .linkedin,
+                    .git {
+                        width: 23px;
+                        height: 23px;
+                        display: inline;
+                        margin: 0;
+                    }
+                    
+                    .link {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+                    }
+                    /* ... (autres styles) ... */
+                    /* Styles pour l'adresse email et le numéro de téléphone */
+                    
+                    address a,
+                    p a {
+                        color: white;
+                        /* Définissez la couleur du texte pour les liens d'adresse et de téléphone */
+                        text-decoration: none;
+                    }
+                    
+                    address a:hover,
+                    p a:hover {
+                        color: rgb(215, 177, 27);
+                        /* Couleur au survol */
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+                    /* ... (autres styles) ... */
+                    
+                    @media screen and (min-width: 1024px) {
+                        body {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        main {
+                            width: 21cm;
+                            height: 29.7cm;
+                            margin: 0 auto;
+                        }
+                        #section1 {
+                            page-break-before: always;
+                        }
+                        a {
+                            color: #094d64;
+                            /* Changez la couleur du lien en fonction de vos préférences */
+                            text-decoration: underline;
+                            /* Ajoutez une soulignement aux liens */
+                        }
+                        a:hover {
+                            color: #094d64;
+                            /* Changez la couleur du lien au survol lors de l'impression */
+                            text-decoration: underline;
+                            /* Ajoutez une soulignement aux liens au survol lors de l'impression */
+                        }
+                    }
