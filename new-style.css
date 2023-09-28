@@ -81,6 +81,12 @@ h1 {
 .np {
     width: 100%;
     margin: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.work {
+    margin: 0;
 }
 
 h2 {
@@ -136,7 +142,7 @@ span {
     border-style: double;
     border-width: 3px;
     /* Taille ajustée : 3px */
-    margin: 0;
+    margin-left: 5px;
 }
 
 #section2 hr {
