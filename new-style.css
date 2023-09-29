@@ -125,7 +125,7 @@ img {
     width: 100px;
     /* Taille ajustée : 100px */
     display: block;
-    border: solid white 3px;
+    border: solid rgb(175, 229, 214) 3px;
     /* Taille ajustée : 3px */
     align-self: center;
 }
@@ -141,8 +141,6 @@ span {
     border-color: white;
     border-style: double;
     border-width: 3px;
-    /* Taille ajustée : 3px */
-    margin-left: 5px;
 }
 
 #section2 hr {
