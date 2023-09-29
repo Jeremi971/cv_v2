@@ -20,6 +20,9 @@ body {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    flex: 1;
+    border-right: solid 1px rgb(212, 210, 210);
+    padding-right: 10px;
 }
 
 
@@ -36,7 +39,6 @@ a {
 a:hover {
     color: rgb(215, 177, 27);
     font-weight: bold;
-    /* Taille ajustée : 15px */
 }
 
 main {
@@ -45,18 +47,6 @@ main {
     justify-content: flex-start;
     width: 100%;
     min-height: 100vh;
-}
-
-#section1 {
-    flex: 1;
-    border-right: solid 1px rgb(212, 210, 210);
-    padding-right: 10px;
-    background-color: #094d64;
-    padding: 10px;
-    color: whitesmoke;
-    display: flex;
-    align-items: start;
-    flex-direction: column;
 }
 
 #section2 {
@@ -70,7 +60,7 @@ h1,
 h2,
 h3 {
     font-family: 'Alegreya Sans SC', sans-serif;
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
 }
 
 h1 {
@@ -90,42 +80,35 @@ h1 {
 
 h2 {
     font-size: 20px;
-    /* Taille ajustée : 16px */
 }
 
 h4 {
     font-size: 10px;
-    /* Taille ajustée : 10px */
 }
 
 a,
 p {
     font-size: 10px;
-    /* Taille ajustée : 10px */
 }
 
 h3 {
     font-size: 13px;
-    /* Taille ajustée : 12px */
 }
 
 ul li {
     font-size: 10px;
-    /* Taille ajustée : 10px */
 }
 
 .photo {
     border-radius: 50%;
     margin: auto;
+    /* Correction : centré horizontalement */
     margin-top: 5px;
     margin-bottom: 5px;
     height: 100px;
-    /* Taille ajustée : 100px */
     width: 100px;
-    /* Taille ajustée : 100px */
     display: block;
     border: solid whitesmoke 3px;
-    /* Taille ajustée : 3px */
     align-self: center;
 }
 
@@ -133,7 +116,6 @@ span {
     color: rgb(133, 132, 132);
     font-weight: normal;
     font-size: 10px;
-    /* Taille ajustée : 10px */
 }
 
 #section1 hr {
@@ -146,20 +128,16 @@ span {
     border-color: #094d64;
     border-style: double;
     border-width: 3px;
-    /* Taille ajustée : 3px */
 }
 
 #section1 h2 {
     font-size: 20px;
-    /* Taille ajustée : 20px */
 }
 
 .linkedin,
 .git {
     width: 23px;
-    /* Taille ajustée : 23px */
     height: 23px;
-    /* Taille ajustée : 23px */
     display: inline;
     margin: 0;
 }
@@ -170,7 +148,6 @@ span {
     justify-content: start;
     align-items: center;
     gap: 10px;
-    /* Taille ajustée : 10px */
 }
 
 .link img {
@@ -256,16 +233,13 @@ ul {
 #section2 h2,
 #section2 h3 {
     margin: 5px 0;
-    /* Réduisez la marge des titres dans la section 2 selon vos besoins */
 }
 
 #section2 p,
 #section2 ul {
     margin: 2px 0;
-    /* Réduisez la marge des paragraphes et des listes dans la section 2 selon vos besoins */
 }
 
 #section2 ul li {
     margin: 1px 0;
-    /* Réduisez la marge des éléments de liste dans la section 2 selon vos besoins */
 }
