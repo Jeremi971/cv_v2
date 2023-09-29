@@ -115,7 +115,7 @@ ul li {
     /* Taille ajustée : 10px */
 }
 
-img {
+.photo {
     border-radius: 50%;
     margin: auto;
     margin-top: 5px;
@@ -125,7 +125,7 @@ img {
     width: 100px;
     /* Taille ajustée : 100px */
     display: block;
-    border: solid rgb(175, 229, 214) 3px;
+    border: solid whitesmoke 3px;
     /* Taille ajustée : 3px */
     align-self: center;
 }
@@ -169,6 +169,7 @@ span {
     width: 100%;
     display: flex;
     justify-content: start;
+    align-items: center;
     gap: 10px;
     /* Taille ajustée : 10px */
 }
