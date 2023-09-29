@@ -36,7 +36,6 @@ a {
 a:hover {
     color: rgb(215, 177, 27);
     font-weight: bold;
-    font-size: 15px;
     /* Taille ajustée : 15px */
 }
 
@@ -174,8 +173,19 @@ span {
     /* Taille ajustée : 10px */
 }
 
+.link img {
+    vertical-align: middle;
+}
 
-/* ... (autres styles) ... */
+.name {
+    color: whitesmoke;
+}
+
+.name:hover {
+    color: rgb(215, 177, 27);
+    font-weight: bold;
+    font-size: 13px;
+}
 
 
 /* Styles pour l'adresse email et le numéro de téléphone */
@@ -190,8 +200,8 @@ address a:hover,
 p a:hover {
     color: rgb(215, 177, 27);
     font-weight: bold;
-    font-size: 15px;
-    /* Taille ajustée : 15px */
+    text-decoration: none;
+    font-size: 13px;
 }
 
 .left-column {
