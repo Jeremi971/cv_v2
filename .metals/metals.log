@@ -1,0 +1,18 @@
+2023.11.17 14:42:35 INFO  Started: Metals version 1.1.0 in folders 'C:\workspace\projet_cv - V2' for client Visual Studio Code 1.84.2.
+2023.11.17 14:42:36 WARN  Build server is not auto-connectable.
+2023.11.17 14:42:36 WARN  no build tool detected in workspace 'C:\workspace\projet_cv - V2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.11.17 14:42:36 WARN  no build target for: C:\workspace\Linkedin\Ch01\04\projet_01\src\main\scala\Main.scala
+2023.11.17 14:42:40 INFO  no build target found for C:\workspace\Linkedin\Ch01\04\projet_01\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.17 14:42:42 INFO  time: code lens generation in 5.29s
+2023.11.17 14:44:44 WARN  no build target for: C:\workspace\Linkedin\Ch01\04\projet_01\src\main\scala\Main.scala
+2023.11.17 14:44:48 WARN  no build target for: C:\workspace\Linkedin\Ch01\04\projet_01\src\main\scala\Main.scala
+2023.11.17 14:44:50 WARN  no build target for: C:\workspace\Linkedin\Ch01\04\projet_01\src\main\scala\Main.scala
+2023.11.17 14:52:36 INFO  Shutting down server
+2023.11.17 14:52:36 INFO  shutting down Metals
+2023.11.17 14:52:36 INFO  Exiting server
+2023.12.22 09:17:12 INFO  Started: Metals version 1.2.0 in folders 'C:\workspace\projet_cv - V2' for client Visual Studio Code 1.85.1.
+2023.12.22 09:17:13 WARN  Build server is not auto-connectable.
+2023.12.22 09:17:13 WARN  no build tool detected in workspace 'C:\workspace\projet_cv - V2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.22 09:46:01 INFO  Shutting down server
+2023.12.22 09:46:01 INFO  shutting down Metals
+2023.12.22 09:46:01 INFO  Exiting server
